@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -42,7 +42,873 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
   </head>
-<body>
-  <script src="main.js"></script>
-</body>
+
+  <body>
+    <main class="mainContainer">
+      <div class="generalContainer">
+        <header class="headerContainer">
+          <div class="headerContent">
+            <div class="logoContainer">
+              <img
+                src="Assets/logos/logoMarquesitasSinFondo.webp"
+                alt="Logo Las Hijas del Marqués"
+              />
+            </div>
+            <div class="mobileMenuToggle">
+              <i class="fas fa-bars"></i>
+            </div>
+            <nav class="desktopMenu">
+              <a href="#" class="navLink">Inicio</a>
+              <a href="#franchise" class="navLink">Franquicias</a>
+              <a href="#locations" class="navLink">Ubicaciones</a>
+              <a href="#menu" class="navLink">Menú</a>
+              <a href="#contact" class="navLink highlight">Contacto</a>
+            </nav>
+          </div>
+        </header>
+        <section class="heroSection">
+          <div class="heroOverlay"></div>
+          <div class="mainImageContainer">
+            <img
+              id="mainImage"
+              src="Assets/images/main.jpg"
+              alt="Marquesitas Las Hijas del Marqués"
+            />
+          </div>
+          <div class="heroContent">
+            <h1 class="heroTitle">
+              <span class="accent">Nuevos Comienzos</span>
+              <br />acompañados de una Marquesita
+            </h1>
+            <p class="heroSubtitle">
+              Descubre el sabor que está conquistando México
+            </p>
+            <div class="heroCta">
+              <a href="#franchise" class="primaryButton"
+                >Conoce nuestras franquicias</a
+              >
+              <a href="#locations" class="secondaryButton"
+                >Encuentra tu sucursal</a
+              >
+            </div>
+            <p class="disclaimer">
+              * Las imágenes mostradas son puramente ilustrativas.
+            </p>
+          </div>
+        </section>
+        <section id="franchise" class="franchiseSection">
+          <div class="sectionContainer">
+            <div class="franchiseContent">
+              <div class="franchiseText">
+                <h2 class="sectionTitle">
+                  <span class="accent">Explora nuestro modelo de negocio</span>
+                  <br />Franquicias en venta
+                </h2>
+                <p class="sectionDescription">
+                  Únete a nuestra familia de emprendedores y forma parte de un
+                  negocio exitoso con más de 5 sucursales en la Ciudad de
+                  México. Ofrecemos un modelo de negocio probado, capacitación
+                  completa y soporte continuo.
+                </p>
+                <div class="franchiseBenefits">
+                  <div class="benefit">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Inversión accesible</span>
+                  </div>
+                  <div class="benefit">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Capacitación completa</span>
+                  </div>
+                  <div class="benefit">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Soporte continuo</span>
+                  </div>
+                  <div class="benefit">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Marca reconocida</span>
+                  </div>
+                </div>
+                <a href="#contact" class="primaryButton">¡Contáctanos!</a>
+              </div>
+              <div class="historyCarouselContainer">
+                <div class="historyCarousel">
+                  <button class="historyNavButton prevHistoryButton">
+                    <i class="fas fa-chevron-left"></i>
+                  </button>
+
+                  <div class="historySlides">
+                    <div class="historySlide active">
+                      <div class="historyImageContainer">
+                        <img
+                          src="Assets/history/historia.JPG"
+                          alt="Nuestra Historia"
+                        />
+                      </div>
+                      <div class="historyContent">
+                        <h3 class="historyTitle">Nuestra Historia</h3>
+                        <p class="historyText">
+                          Las Hijas del Marqués nació en 2015 como un pequeño
+                          negocio familiar en la colonia Del Valle. Inspirados
+                          en la tradición yucateca de las marquesitas, decidimos
+                          traer este delicioso postre a la Ciudad de México con
+                          un toque único y personalizado. Lo que comenzó como un
+                          carrito en una esquina, rápidamente se convirtió en un
+                          fenómeno local gracias al sabor inigualable de
+                          nuestras marquesitas y la calidez de nuestro servicio.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="historySlide">
+                      <div class="historyImageContainer">
+                        <img
+                          src="Assets/history/sucursal.JPG"
+                          alt="Nuestras Sucursales"
+                        />
+                      </div>
+                      <div class="historyContent">
+                        <h3 class="historyTitle">Nuestras Sucursales</h3>
+                        <p class="historyText">
+                          Actualmente contamos con 5 sucursales estratégicamente
+                          ubicadas en la Ciudad de México: Del Valle, San Simón,
+                          Álamos, Narvarte y Vértiz Narvarte. Cada una de
+                          nuestras ubicaciones mantiene la esencia y calidad que
+                          nos caracteriza, atendiendo a cientos de clientes
+                          satisfechos diariamente. Nuestro plan de expansión
+                          incluye abrir nuevas sucursales en los próximos años,
+                          ampliando terreno en la ciudad de México y otros
+                          estados de la República.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="historySlide">
+                      <div class="historyImageContainer">
+                        <img
+                          src="Assets/history/equipo.JPG"
+                          alt="Nuestro Equipo"
+                        />
+                      </div>
+                      <div class="historyContent">
+                        <h3 class="historyTitle">Nuestro Equipo</h3>
+                        <p class="historyText">
+                          Nuestro equipo de trabajo es un espacio inclusivo y
+                          estudiantil donde la diversidad y la creatividad son
+                          fundamentales. Estamos comprometidos con la igualdad
+                          de oportunidades y fomentamos un ambiente de respeto y
+                          apoyo mutuo. Nuestro equipo está conformado por
+                          estudiantes y profesionales apasionados y motivados,
+                          que portan sus habilidades y experiencias únicas para
+                          lograr objetivos comunes. Valoramos la colaboración,
+                          la comunicación abierta y la retroalimentación
+                          constructiva para seguir creciendo y mejorando.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="historySlide">
+                      <div class="historyImageContainer">
+                        <img
+                          src="Assets/history/franquicia.JPG"
+                          alt="Modelo de Franquicia"
+                        />
+                      </div>
+                      <div class="historyContent">
+                        <h3 class="historyTitle">Modelo de Franquicia</h3>
+                        <p class="historyText">
+                          Nuestro modelo de franquicia está diseñado para
+                          emprendedores que buscan un negocio rentable y de
+                          rápido crecimiento. Ofrecemos un retorno de inversión
+                          en aproximadamente 18 meses, con una inversión inicial
+                          accesible. Nuestros franquiciatarios reciben
+                          capacitación completa, manuales operativos detallados
+                          y soporte continuo para garantizar el éxito de su
+                          negocio.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button class="historyNavButton nextHistoryButton">
+                    <i class="fas fa-chevron-right"></i>
+                  </button>
+                </div>
+
+                <div class="historyPagination">
+                  <span class="currentHistoryPage">1</span> /
+                  <span class="totalHistoryPages">4</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="gallerySection">
+          <div class="sectionContainer">
+            <h2 class="sectionTitle centered">
+              Nuestra <span class="accent">Galería</span> de Marquesitas
+            </h2>
+            <p class="sectionDescription centered">
+              Descubre la experiencia de nuestras deliciosas marquesitas y
+              nuestras sucursales
+            </p>
+
+            <div class="galleryContainer">
+              <button class="galleryNavButton prevButton">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+
+              <div class="galleryGrid">
+                <div class="galleryItem">
+                  <img
+                    src="Assets/grid/grid- (23).JPG"
+                    alt="Marquesita con Nutella y queso"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Marquesita con Nutella y Queso</span>
+                  </div>
+                </div>
+                <div class="galleryItem">
+                  <img
+                    src="Assets/grid/grid- (2).JPG"
+                    alt="Marquesita de cochinita"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Marquesita de Cochinita</span>
+                  </div>
+                </div>
+                <div class="galleryItem">
+                  <img
+                    src="Assets/grid/grid- (3).JPG"
+                    alt="Marquesitas dulces"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Marquesitas Dulces</span>
+                  </div>
+                </div>
+                <div class="galleryItem">
+                  <img
+                    src="Assets/grid/grid- (4).JPG"
+                    alt="Marquesita de fresa y queso"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Marquesita de Fresa y Queso</span>
+                  </div>
+                </div>
+                <div class="galleryItem">
+                  <img
+                    src="Assets/grid/grid- (5).JPG"
+                    alt="Marquesita de pepperoni"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Marquesita de Pepperoni</span>
+                  </div>
+                </div>
+                <div class="galleryItem">
+                  <img
+                    src="Assets/grid/grid- (6).JPG"
+                    alt="Clientes felices en sucursal"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Clientes Felices en Sucursal</span>
+                  </div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (7).JPG"
+                    alt="Cliente disfrutando una marquesita"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Cliente Disfrutando una Marquesita</span>
+                  </div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (8).JPG"
+                    alt="Marquesita de jamon serrano"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Marquesita de Jamon Serrano</span>
+                  </div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (9).JPG"
+                    alt="Marquesita de frutas surtidas"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Marquesita de Frutas Surtidas</span>
+                  </div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (10).JPG"
+                    alt="Queso bola"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay"><span>Queso Bola</span></div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (11).JPG"
+                    alt="Marquesitas recien hechas"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Marquesitas Recien Hechas</span>
+                  </div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (12).JPG"
+                    alt="Equipo de trabajo"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Programas de TV</span>
+                  </div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (13).JPG"
+                    alt="Marquesita de platano, nutella y queso"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Marquesita de platano, nutella y queso.</span>
+                  </div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (14).JPG"
+                    alt="Marquesita con fresa y queso"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Marquesita con Fresa y Queso</span>
+                  </div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (15).JPG"
+                    alt="Marquesita con M&M"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Marquesita con M&M</span>
+                  </div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (16).JPG"
+                    alt="Marquesita con Bombones"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Marquesita con Bombones</span>
+                  </div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (17).JPG"
+                    alt="Marquesitas para eventos"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Marquesitas para Eventos</span>
+                  </div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (18).JPG"
+                    alt="Marquesita de Nutella, nuez y fresa con queso"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Marquesita de Nutella, nuez y fresa con queso</span>
+                  </div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (19).JPG"
+                    alt="Sucursal"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay"><span>Sucursal</span></div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (20).JPG"
+                    alt="Sucursal"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay"><span>Ingredientes</span></div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (21).JPG"
+                    alt="Marquesita con helado artesanal"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Marquesita con helado artesanal</span>
+                  </div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (22).JPG"
+                    alt="Clientes felices"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Clientes Felices</span>
+                  </div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (1).JPG"
+                    alt="Entrevista sobre marquesitas"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Entrevista sobre Marquesitas</span>
+                  </div>
+                </div>
+                <div class="galleryItem hidden">
+                  <img
+                    src="Assets/grid/grid- (24).JPG"
+                    alt="Marquesita con Queso de bola"
+                    class="galleryImage"
+                  />
+                  <div class="galleryOverlay">
+                    <span>Marquesita con Queso de bola</span>
+                  </div>
+                </div>
+              </div>
+
+              <button class="galleryNavButton nextButton">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+
+            <div class="galleryPagination">
+              <span class="currentPage">1</span> /
+              <span class="totalPages">4</span>
+            </div>
+          </div>
+        </div>
+        <section id="locations" class="locationsSection">
+          <div class="sectionContainer">
+            <h2 class="sectionTitle centered light">
+              ¡Siempre estamos cerca de ti! <br />
+              <span class="accent-light">Visita nuestras sucursales</span>
+            </h2>
+
+            <div class="locationsSlider">
+              <div class="locationControls">
+                <button class="locationControl active" data-location="delValle">
+                  Del Valle
+                </button>
+                <button class="locationControl" data-location="sanSimon">
+                  San Simón
+                </button>
+                <button class="locationControl" data-location="alamos">
+                  Álamos
+                </button>
+                <button class="locationControl" data-location="narvarte">
+                  Narvarte
+                </button>
+                <button class="locationControl" data-location="vertiz">
+                  Vértiz Narvarte
+                </button>
+              </div>
+
+              <div class="locationsCarousel">
+                <div class="locationCard active" id="delValle">
+                  <div class="locationInfo">
+                    <h3 class="locationName">Del Valle</h3>
+                    <p class="locationAddress">
+                      Matías Romero 1, colonia del valle centro, Benito Juárez,
+                      03100 Ciudad de México, CDMX.
+                    </p>
+                    <p class="locationHours">
+                      Lun, Mier, Vier, Sab y Dom: 16:30 hrs - 22:00 hrs
+                    </p>
+                    <a href="tel:+525528556677" class="locationPhone">
+                      <i class="fas fa-phone"></i> 55 51047376
+                    </a>
+                  </div>
+                  <div class="locationMap">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.7121442642856!2d-99.1725891!3d19.3816129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff9e631b8a13%3A0x72703fcc347b67b1!2sLas%20Hijas%20del%20Marqu%C3%A9s!5e0!3m2!1sen!2smx!4v1741664037336!5m2!1sen!2smx"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
+                </div>
+
+                <div class="locationCard" id="sanSimon">
+                  <div class="locationInfo">
+                    <h3 class="locationName">San Simón Ticumac</h3>
+                    <p class="locationAddress">
+                      Matías Romero 1, colonia del valle centro, Benito Juárez,
+                      03100 Ciudad de México, CDMX.
+                    </p>
+                    <p class="locationHours">Lun-Dom: 16:30 - 22:00</p>
+                    <a href="tel:+525528556677" class="locationPhone">
+                      <i class="fas fa-phone"></i> 55 51047376
+                    </a>
+                  </div>
+                  <div class="locationMap">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.808739594028!2d-99.1462536!3d19.377432499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff4184f7952b%3A0xe6e8b0afe29688ee!2sMarquesitas%20%2F%20Las%20Hijas%20Del%20Marqu%C3%A9s!5e0!3m2!1sen!2smx!4v1741664051437!5m2!1sen!2smx"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
+                </div>
+
+                <div class="locationCard" id="alamos">
+                  <div class="locationInfo">
+                    <h3 class="locationName">Álamos</h3>
+                    <p class="locationAddress">
+                      Soria y Castilla, Alamos, Benito Juárez, 03400, ciudad de
+                      México, CDMX
+                    </p>
+                    <p class="locationHours">Lun-Dom: 16:30 - 22:00</p>
+                    <a href="tel:+525528556677" class="locationPhone">
+                      <i class="fas fa-phone"></i> 55 51047376
+                    </a>
+                  </div>
+                  <div class="locationMap">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.338042448639!2d-99.142927!3d19.397794899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff800bee4749%3A0x4842af4cc5f12830!2sMarquesitas%20Las%20Hijas%20Del%20Marqu%C3%A9s%20%C3%81lamos!5e0!3m2!1sen!2smx!4v1743957786069!5m2!1sen!2smx"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    >
+                    </iframe>
+                  </div>
+                </div>
+
+                <div class="locationCard" id="narvarte">
+                  <div class="locationInfo">
+                    <h3 class="locationName">Narvarte</h3>
+                    <p class="locationAddress">
+                      Enrique Rebsamen y casa del obrero mundial, piedad Narvarte, Benito Juárez, 03000 Ciudad de México, CDMX.
+                    </p>
+                    <p class="locationHours">Mier-Dom: 16:30 - 22:00</p>
+                    <a href="tel:+525528556677" class="locationPhone">
+                      <i class="fas fa-phone"></i> 55 51047376
+                    </a>
+                  </div>
+                  <div class="locationMap">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.247773370763!2d-99.1585046!3d19.4016976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff10c473bc59%3A0xf3a37921d1f7344!2sEnrique%20R%C3%A9bsamen%20%26%20Casa%20del%20Obrero%20Mundial%2C%20Piedad%20Narvarte%2C%2003000%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1741664102903!5m2!1sen!2smx"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
+                </div>
+
+                <div class="locationCard" id="vertiz">
+                  <div class="locationInfo">
+                    <h3 class="locationName">Vértiz Narvarte</h3>
+                    <p class="locationAddress">
+                      Matías Romero 1402, Vértiz Narvarte, Benito Juárez, 03600, ciudad de México, CDMX
+                    </p>
+                    <p class="locationHours">Lun-Dom: 16:30 - 22:00</p>
+                    <a href="tel:+525528556677" class="locationPhone">
+                      <i class="fas fa-phone"></i>  55 51047376
+                    </a>
+                  </div>
+                  <div class="locationMap">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.76527140233!2d-99.1573435!3d19.379313800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffa607d05dfb%3A0x918bc1423c425cb3!2sMat%C3%ADas%20Romero%201402%2C%20V%C3%A9rtiz%20Narvarte%2C%20Benito%20Ju%C3%A1rez%2C%2003600%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1741664128896!5m2!1sen!2smx"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact" class="contactSection">
+          <div class="sectionContainer">
+            <h2 class="sectionTitle centered">
+              ¿Interesado en una <span class="accent">franquicia</span>?
+            </h2>
+            <p class="sectionDescription centered">
+              Completa el formulario y nos pondremos en contacto contigo a la
+              brevedad
+            </p>
+
+            <div class="contactContent">
+              <div class="contactForm">
+                <form id="franchiseForm">
+                  <div class="formGroup">
+                    <label for="name">Nombre completo</label>
+                    <input type="text" id="name" name="name" required />
+                  </div>
+                  <div class="formGroup">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required />
+                  </div>
+                  <div class="formGroup">
+                    <label for="phone">Teléfono</label>
+                    <input type="tel" id="phone" name="phone" required />
+                  </div>
+                  <div class="formGroup">
+                    <label for="city">Ciudad de interés</label>
+                    <input type="text" id="city" name="city" required />
+                  </div>
+                  <div class="formGroup">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                  </div>
+                  <button type="submit" class="primaryButton fullWidth">
+                    Enviar solicitud
+                  </button>
+                </form>
+              </div>
+              <div class="contactInfo">
+                <div class="infoCard">
+                  <div class="infoIcon">
+                    <i class="fas fa-phone"></i>
+                  </div>
+                  <div class="infoContent">
+                    <h3>Teléfono</h3>
+                    <p><a href="tel:+525528556677">55 5104 7376</a></p>
+                  </div>
+                </div>
+                <div class="infoCard">
+                  <div class="infoIcon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="infoContent">
+                    <h3>Correo electrónico</h3>
+                    <p>
+                      <a
+                        href="/cdn-cgi/l/email-protection#88eefae9e6f9fde1ebe1e9fbc8e4e9fbe0e1e2e9fbecede4e5e9faf9fdedfba6ebe7e5"
+                        ><span
+                          class="__cf_email__"
+                          data-cfemail="b7d1c5d6d9c6c2ded4ded6c4f7dbd6c4dfdeddd6c4d3d2dbdad6c5c6c2d2c499d4d8da"
+                          >lashijasdelmarques@gmail.com</span
+                        ></a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div class="socialLinks">
+                  <a
+                    href="https://www.facebook.com/LASHIJASDELMARQUES/"
+                    class="socialLink"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/lashijasdelmarques/"
+                    class="socialLink"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://x.com/hijasdelmarques?s=11&t=4KVFJGRExO7Ac6aQlB940w" class="socialLink">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="fill: currentColor;">
+                      <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@lashijasdelmarques?_t=ZM-8vBtv31n10Q&_r=1"
+                    class="socialLink"
+                  >
+                    <i class="fab fa-tiktok"></i>
+                  </a>
+                  <a href="https://www.threads.net/@lashijasdelmarques?igshid=NTc4MTIwNjQ2YQ==" class="socialLink">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                      <path fill="#00bab3" 
+                      d="M331.5 235.7c2.2 .9 4.2 1.9 6.3 2.8c29.2 14.1 50.6 35.2 61.8 61.4c15.7 36.5 17.2 95.8-30.3 143.2c-36.2 36.2-80.3 52.5-142.6 53h-.3c-70.2-.5-124.1-24.1-160.4-70.2c-32.3-41-48.9-98.1-49.5-169.6V256v-.2C17 184.3 33.6 127.2 65.9 86.2C102.2 40.1 156.2 16.5 226.4 16h.3c70.3 .5 124.9 24 162.3 69.9c18.4 22.7 32 50 40.6 81.7l-40.4 10.8c-7.1-25.8-17.8-47.8-32.2-65.4c-29.2-35.8-73-54.2-130.5-54.6c-57 .5-100.1 18.8-128.2 54.4C72.1 146.1 58.5 194.3 58 256c.5 61.7 14.1 109.9 40.3 143.3c28 35.6 71.2 53.9 128.2 54.4c51.4-.4 85.4-12.6 113.7-40.9c32.3-32.2 31.7-71.8 21.4-95.9c-6.1-14.2-17.1-26-31.9-34.9c-3.7 26.9-11.8 48.3-24.7 64.8c-17.1 21.8-41.4 33.6-72.7 35.3c-23.6 1.3-46.3-4.4-63.9-16c-20.8-13.8-33-34.8-34.3-59.3c-2.5-48.3 35.7-83 95.2-86.4c21.1-1.2 40.9-.3 59.2 2.8c-2.4-14.8-7.3-26.6-14.6-35.2c-10-11.7-25.6-17.7-46.2-17.8H227c-16.6 0-39 4.6-53.3 26.3l-34.4-23.6c19.2-29.1 50.3-45.1 87.8-45.1h.8c62.6 .4 99.9 39.5 103.7 107.7l-.2 .2zm-156 68.8c1.3 25.1 28.4 36.8 54.6 35.3c25.6-1.4 54.6-11.4 59.5-73.2c-13.2-2.9-27.8-4.4-43.4-4.4c-4.8 0-9.6 .1-14.4 .4c-42.9 2.4-57.2 23.2-56.2 41.8l-.1 .1z"/></svg>
+                  </a>
+                  <a href="5551047376" class="socialLink">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footerSection">
+          <div class="footerContainer">
+            <div class="footerColumns">
+              <div class="footerColumn">
+                <div class="footerLogo">
+                  <img
+                    src="Assets/logos/logoMarquesitasSinFondo.webp"
+                    alt="Logo Las Hijas del Marqués"
+                  />
+                </div>
+                <p class="footerDescription">
+                  Las Hijas del Marqués es una empresa dedicada a la elaboración
+                  y venta de marquesitas, un delicioso postre tradicional.
+                </p>
+              </div>
+
+              <div class="footerColumn">
+                <h3 class="footerTitle">Enlaces rápidos</h3>
+                <nav class="footerNav">
+                  <a href="#" class="footerLink">Inicio</a>
+                  <a href="#franchise" class="footerLink">Franquicias</a>
+                  <a href="#locations" class="footerLink">Ubicaciones</a>
+                  <a href="#menu" class="footerLink">Menú</a>
+                  <a href="#contact" class="footerLink">Contacto</a>
+                </nav>
+              </div>
+
+              <div class="footerColumn">
+                <h3 class="footerTitle">Contacto</h3>
+                <div class="footerContact">
+                  <p>
+                    <i class="fas fa-map-marker-alt"></i> Av. Insurgentes Sur
+                    1234, CDMX
+                  </p>
+                  <p>
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+525528556677">55 2855 6677</a>
+                  </p>
+                  <p>
+                    <i class="fas fa-envelope"></i>
+                    <a
+                      href="/cdn-cgi/l/email-protection#1f767179705f737e6c7776757e6c7b7a73727e6d6e6a7a6c317c7072"
+                      ><span
+                        class="__cf_email__"
+                        data-cfemail="9cf5f2faf3dcf0fdeff4f5f6fdeff8f9f0f1fdeeede9f9efb2fff3f1"
+                        >[email&#160;protected]</span
+                      ></a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="footerColumn">
+                <h3 class="footerTitle">Síguenos</h3>
+                <div class="footerSocial">
+                  <a
+                    href="https://www.facebook.com/LASHIJASDELMARQUES/"
+                    class="socialIcon"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/lashijasdelmarques/"
+                    class="socialIcon"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="#" class="socialIcon">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="footerBottom">
+              <div class="footerCopyright">
+                <p>
+                  &copy; Las Hijas del Marqués 2025. Todos los derechos
+                  reservados.
+                </p>
+              </div>
+              <div class="footerLegal">
+                <a href="#" class="legalLink">Términos y condiciones</a>
+                <a href="#" class="legalLink">Política de privacidad</a>
+                <p class="developerCredit">
+                  Desarrollado por Koxland Inc. 2025
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+      <div class="mobileMenu">
+        <div class="mobileMenuHeader">
+          <div class="mobileMenuLogo">
+            <img
+              src="Assets/logos/logoMarquesitasSinFondo.webp"
+              alt="Logo Las Hijas del Marqués"
+            />
+          </div>
+          <div class="mobileMenuClose">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <nav class="mobileMenuNav">
+          <a href="#" class="mobileMenuLink">Inicio</a>
+          <a href="#franchise" class="mobileMenuLink">Franquicias</a>
+          <a href="#locations" class="mobileMenuLink">Ubicaciones</a>
+          <a href="#menu" class="mobileMenuLink">Menú</a>
+          <a href="#contact" class="mobileMenuLink">Contacto</a>
+          <div class="bombas">
+            <img src="Assets/Background/bomba-1.svg" alt="" />
+            <img src="Assets/Background/bomba-2.svg" alt="" />
+            <img src="Assets/Background/bomba-3.svg" alt="" />
+            <img src="Assets/Background/bomba-4.svg" alt="" />
+            <img src="Assets/Background/bomba-5.svg" alt="" />
+            <img src="Assets/Background/bomba-6.svg" alt="" />
+            <img src="Assets/Background/bomba-7.svg" alt="" />
+          </div>
+        </nav>
+        <div class="mobileMenuSocial">
+          <a
+            href="https://www.facebook.com/LASHIJASDELMARQUES/"
+            class="mobileMenuSocialLink"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/lashijasdelmarques/"
+            class="mobileMenuSocialLink"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="tel:+525528556677" class="mobileMenuSocialLink">
+            <i class="fas fa-phone"></i>
+          </a>
+        </div>
+      </div>
+      <div class="lightboxModal">
+        <div class="modalContent">
+          <span class="closeModal">&times;</span>
+          <img
+            class="modalImage"
+            src="/placeholder.svg"
+            alt="Imagen ampliada"
+          />
+          <div class="modalCaption"></div>
+        </div>
+      </div>
+    </main>
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
